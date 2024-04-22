@@ -50,9 +50,26 @@ h1, h3 {
 }
 .anh34{
     padding: 10px;
+    position: relative;
 }
 .anh34 img{
     height: 50%;
+}
+.anh34 p:nth-child(1){
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin: auto;
+    top: 25%;
+    left: 15%;
+}
+.anh34 p:nth-child(2){
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    margin: auto;
+    top: 70%;
+    left: 25%;
 }
 .anh12{
     padding:10px;
@@ -61,21 +78,53 @@ h1, h3 {
 .anh12 img{
     height: 50%; 
 }
-.anh12 p{
+.anh12 p:nth-child(1){
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin: auto;
+    top: 25%;
+    left: 25%;
+}
+.anh12 p:nth-child(3){
+    position: absolute;
+    font-size: 50px;
+    color: black;
+    margin: auto; 
+    left: 25%; 
+    top: 70%;   
+}
+.text_top_12{
     position: absolute;
     font-size: 50px;
     color: white;
     margin: auto;
     align-items: center;
-    top: 120px;
-    left: 60px;
-    
+      
+}
+.text_bottom_12{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin: auto;
+    align-items: center;
+    top: 75%;
+    left: 25%; 
 }
 .anh5{
     padding: 10px;
+    position: relative;
 }
 .anh5 img{
     height: 100%;
+}
+.anh5 p{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 30%;
+    left: 20%;
+
 }
 .container_footer{
     display: grid;
@@ -86,4 +135,8 @@ h1, h3 {
 }
 .and1_absolute{
     position: absolute;
+}
+.footer1 p:nth-child(1){
+    font-weight: 700;
+    font-size: 20px;
 }
